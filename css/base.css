@@ -86,6 +86,10 @@ img {
   color: var(--red);
 }
 
+.text-dark {
+  color: var(--dark) !important;
+}
+
 .btn-flat {
   display: inline-block;
   border: 2px solid var(--btn-border-color);

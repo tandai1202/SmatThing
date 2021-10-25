@@ -1125,6 +1125,18 @@ footer ul li a {
 /* end Cart */
 
 /* Checkout */
+.address-checkout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    background-color: var(--white);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    max-height: 104px;
+    border: 1px solid #e0e4e8;
+}
+
 .checkout__login {
     margin-top: 35px;
     margin-bottom: 35px;
