@@ -2,10 +2,10 @@
   --main-bg-color: #fff;
   --second-bg-color: #e1e0e0;
   --third-bg-color: #fefdfd;
-  --background-color-main: #3797A4;
-  --background-color-second: #8BCDCD;
+  --background-color-main: #3797a4;
+  --background-color-second: #8bcdcd;
   --background-color-third: #f5f5fa;
-  --text-color: #3797A4;
+  --text-color: #3797a4;
   --white: #fff;
   --grey: #4b4b4b;
   --black: #000;
@@ -31,7 +31,7 @@
 }
 
 body {
-  font-family: 'Arima Madurai', cursive;
+  font-family: "Arima Madurai", cursive;
   overflow-x: hidden;
   position: relative;
   background-color: var(--main-bg-color);
@@ -137,7 +137,8 @@ table thead tr {
   text-align: left;
 }
 
-table th, table td {
+table th,
+table td {
   padding: 20px 0;
   border-bottom: 1px solid var(--border-color);
 }
