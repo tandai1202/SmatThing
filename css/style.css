@@ -2070,3 +2070,15 @@ footer ul li a {
 }
 
 /* end address */
+
+/* contact */
+.contact h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+/* end contact */
