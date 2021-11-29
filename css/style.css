@@ -764,7 +764,7 @@ footer ul li a {
 
 .rating i {
     color: #ffc107;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* Phân trang */
@@ -830,16 +830,57 @@ footer ul li a {
 
 .product-info>*~* {
     font-size: 2rem;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .product-info h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+.product-info-detail {
+    display: flex;
+}
+
+.product-detail__star {
+    width: 150px;
+    border-right: 1px solid #e5e5e5;
+    margin-right: 20px;
 }
 
 .product-info-detail-title {
     font-weight: 600;
-    color: gray;
+    color: var(--red);
+}
+
+.product-sold {
+    display: flex;
+    align-items: flex-end;
+}
+
+.product-sold-number {
+    margin-right:5px
+}
+
+.product-evaluate,
+.product-sold {
+    width: 130px;
+}
+
+.product-detail__star u,
+.product-evaluate u,
+.product-sold p {
+    font-size: 1.6rem;
+}
+
+.product-evaluate span,
+.product-sold span {
+    font-size: 1.4rem;
+    color: #767676;
+}
+
+.product-evaluate {
+    border-right: 1px solid #e5e5e5;
+    margin-right: 20px;
 }
 
 .product-description {
@@ -916,7 +957,7 @@ footer ul li a {
 
 .user-info {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 20px;
 }
@@ -940,7 +981,6 @@ footer ul li a {
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: capitalize;
-    margin-bottom: 10px;
 }
 
 .user-rate-content {
